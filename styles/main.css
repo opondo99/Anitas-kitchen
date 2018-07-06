@@ -37,8 +37,18 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+#imagetext{
+    color: white;
+    bottom:100px;
+    left:70px; 
+    position: relative;
+    font-size: 30px;
+    /* text-align: center; */
+}
+
 .time{
     display: block;
+    width: 200px;
     /* height: 150px; */
 }
 
