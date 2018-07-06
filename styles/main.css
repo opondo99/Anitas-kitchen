@@ -29,38 +29,6 @@
     height: auto;
 }
 
-.topnav{
-    overflow: hidden;
-    background-color: transparent;
-    position: relative;
-}
-/*  
- .topnav #myLinks{
-    display: none;
-}   */
-
-.topnav a{
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    width: 90px;
-}
-
-.topnav a.icon{
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.topnav a:hover{
-    background-color: #ddd;
-    color: black;
-}
-
 .options{
     display: grid;
     height: 200px;
@@ -85,27 +53,6 @@
     padding: 0;
     margin: 0;
 }
-.breakfast{
-    display: block;
-    height: auto;
-    width: auto;
-    text-align: center;
-    background-image: url(breakfast.jpg);
-    color: antiquewhite;
-    
-}
-
-.lunch{
-    color: white;
-    background-image: url(lunch.jpg);
-}
-
-.dinner{
-    color: white;
-    background-image: url(dinner.jpg);
-}
-
-
 
 .content{
     display: grid;

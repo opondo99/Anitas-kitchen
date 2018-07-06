@@ -13,21 +13,12 @@
     <div class="container">
         <div class="header">
             <div class="topnav">
-                <div id="myLinks" onclick="myFunction(this)">                     
+                <div id="myLinks">                     
                     <a href="#">contacts</a>
                     <a href="#">events</a>
                     <a href="#">menu</a>
                 </div>
-                <script>
-                     function myFunction(x){
-                        var x = document.getElementById("myLinks");
-                        if (x.style.display === "block") {
-                            x.style.display = "none";
-                        } else{
-                            x.style.display = "block";
-                        }
-                    }
-                </script>
+               
             </div>       
                 <img src="images/logoBig.png">
                 <p>We provide the right food<br> at the <span>Right Price</span></p>
@@ -37,9 +28,13 @@
                     <p class="happy">Happy Hour</p>
                     <p class="party">Party Time</p>
             </div>
-            <p class="breakfast">Breakfast</p>
-            <p class="lunch">Lunch</p>
-            <p class="dinner">Dinner</p>
+            <div>
+                <img src="">    
+                <p id="imagetext">Breakfast</p>
+            </div>
+            
+            <p id="imagetext">Lunch</p>
+            <p id="imagetext">Dinner</p>
         </div>
         <div class="content">
             <div class="food">
