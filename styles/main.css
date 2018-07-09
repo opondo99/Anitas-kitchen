@@ -81,10 +81,9 @@
 }
 
 .foodtext{
+    display: block;
     /* grid-area: 1 / 2; */
-    padding: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
+    padding:100px;
 }
 
 
