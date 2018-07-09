@@ -138,38 +138,47 @@
 
 .display{
     grid-row: 4 / 5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: grid;
     background-image: url(/styles/foodsBg.jpg);
     background-size: cover;
-    height: 500px; 
+    height: auto; 
 }
 
 .display-content {
     display: grid;
-    width: 70%;
+    width: 80%;
     height: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 50px 600px;
     background: white;  
 } 
 
 .text-display p{
     grid-row: 1 / 2;
     display: inline-block;
-    padding-left: 90px;
-    padding-right: 70px;
+    padding-left: 115px;
+    padding-right: 80px;
     margin-top: 10px; 
 }
 
-.food-display p{
+.food-display{
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 30px;
+}
+
+.food-display p{
     display: inline-block;
     padding: 0;
-    margin: 0;
-    color: white;
+    margin: 0; 
 }
 
 .feedback{
