@@ -13,6 +13,18 @@
     margin-right: auto; 
 } 
 
+.fa-1x{
+    font-size: 1.5rem;
+}
+
+.navbar-toggler{
+    cursor: pointer;
+}
+
+.white-text{
+    color: white;
+}
+
 .header{
     grid-row: 1 /2;
     display: grid;
@@ -81,6 +93,19 @@
     padding-top: 70px;
     padding-bottom: 70px;
     background:white; 
+}
+
+.content a{
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#link:hover{
+    color: #FF6347;
+    border:3px solid #FF6347;
 }
 
 .food{
@@ -161,19 +186,37 @@
     background: white;  
 } 
 
+.text-display{
+    background: gray; 
+    opacity: 0.5;
+    color: black;
+}
+
+.text-display p:hover{
+    color: red;
+    background: white;
+}
+
 .text-display p{
     grid-row: 1 / 2;
     display: inline-block;
-    padding-left: 115px;
-    padding-right: 80px;
-    margin-top: 10px; 
+    height: 50px; 
+    padding-top: 15px;
+    padding-left: 100px; 
+    padding-right: 93px;  
+    /* margin-top: 10px;  */
+    border-left: 2px solid grey;
 }
 
 .food-display{
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 30px;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 10px; 
+    padding-left: 40px; 
+    padding-top: 15px; 
+    color: red;
+    text-align: center;
 }
 
 .food-display p{
@@ -214,7 +257,9 @@
     grid-row: 1 / 2;
     display: block;
     text-align: center;
+    height: 300px;
     background-image: url(/styles/subscribe.jpg);
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -246,6 +291,7 @@ input[type=text]{
     grid-row: 2 / 3;
     background: #FF6347;
     text-align: center;
+    color: white;
 }
 
 .contact h1{
@@ -254,5 +300,7 @@ input[type=text]{
 
 .contact li{
     display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 

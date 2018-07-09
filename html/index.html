@@ -12,14 +12,22 @@
 <body>
     <div class="container-fluid">
         <div class="header">
-            <div class="topnav">
-                <div id="myLinks">                     
-                    <a href="#">contacts</a>
-                    <a href="#">events</a>
-                    <a href="#">menu</a>
-                </div>
-               
-            </div>       
+            <nav>
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+                   aria-expanded="false" aria-label="Toggle navigation"><span class="white-text"><i class="fa fa-bars fa-1x"></i></span></button>
+                    <ul class="navbar-nav mr-auto">
+                        <li nav-item active>
+                            <a class="nav-link" href="#">contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">menu</a>
+                        </li>
+                    </ul>
+            </nav>
                 <img src="images/logoBig.png">
                 <p>We provide the right food<br> at the <strong>Right Price</strong></p>
         </div>
@@ -29,10 +37,10 @@
                     <p class="party">Party Time</p>
             </div>
             <div>
-                <img src="/html/images/breakfast.jpg">    
+                <img src="/html/images/breakfast.jpg">
                 <p id="imagetext"><em>Breakfast</em></p>
             </div>
-            <div>
+            <div class="lunch">
                 <img src="/html/images/lunch.jpg">
                 <p id="imagetext"><em>Lunch</em></p>
             </div>
@@ -43,7 +51,7 @@
         </div>
         <div class="content">
             <div class="food">
-                <div class="card"> 
+                <div class="card">
                    <div class="align-items-start"><img src="images/fastFood1.jpg"></div>
                    <div class="align-items-end"><img src="images/fastFood2.jpg"></div>
                 </div>
@@ -51,30 +59,30 @@
                         <h2>Fast Food</h2>
                         <h4>You'll love our delicious fast food</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eismod tempor ncididunt ut labore et dolore magna aliqua.  Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorinre prehenderit in voluptate velit esse cilliumdolore eu fugiat nulla pariatur. Exce teur sint occaecat cupi datat non proident</p>
-                          <a>VIEW GALLERY</a>
-                </div>      
+                          <a id="link">VIEW GALLERY</a>
+                </div>
             </div>
             <div class="drinks">
                 <div class="drink-text">
                         <h2>Drinks</h2>
                         <h4>We also produce delicious drinks</h4>
                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tompor incididunt ut labore et dolore magna aliqua ex ea commodo consequat.Duis aute irure dolor in re prehenderit in voluptate veli esse cillium dolore eu fugiat nulla pariatur. Exce teur sint occaecat cupi non proident</p>
-                           <a>VIEW GALLERY</a>
+                           <a id="link">VIEW GALLERY</a>
                 </div>
                 <div class="drink-image">
                     <div class="drink1"><img src="images/drink1.jpg"></div>
                     <div class="drink2"><img src="images/drink2.jpg"></div>
-                </div>    
+                </div>
             </div>
         </div>
         <div class="display">
             <div class="display-content">
                     <div class="text-display">
-                            <p>Food</p>
+                            <p>Fast Food</p>
                             <p>Drinks</p>
                             <p>Chicken</p>
                             <p>Rice</p>
-                    </div>   
+                    </div>
                     <div class="food-display">
                         <p><img src="images/chickenBurger.jpg">Chicken Burger</p>
                         <p><img src="images/beefBurger.jpg">Beef Burger</p>
@@ -103,9 +111,9 @@
                 <p>Get our daily food items delivered to your email</p>
                 <form>
                     <input type="text" placeholder="Your email">
-                    <input type="Submit" value="Subscribe">                        
+                    <input type="Submit" value="Subscribe">
                 </form>
-            </div>     
+            </div>
             <div class="contact">
                 <h1><img src="images/logo_white.png">MENU</h1>
                 <p>Thats What We Are</p>
@@ -116,7 +124,7 @@
                     </ul>
                 <p>2016 Menu Restaurant</p>
             </div>
-        </div>      
+        </div>
     </div>
 
 </body>
