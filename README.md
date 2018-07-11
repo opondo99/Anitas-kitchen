@@ -1,14 +1,16 @@
-# Independent Project
+# Project Title
+Anita's Kitchen
 
-## Instructions
-  1) Please clone the Moringa School **mpft1-ip** repo to your computer.
+## Description
+This is a webpage on Anitas food business
 
-  2) Create a repo on your profile, and copy the files from **mpft1-ip** to your new repo.
-  
-  3) Fix up the folder structure.
+## Deployment
+all you need is a browser ie. chrome and firefox and internet connection
 
-  4) Submit your link through Moringa School LMS.
+## Built With
+.html
+.css
+.bootstrap
 
-  5) Complete the independent project.
-  
-  6) Push your commits up to your repo.
+## Authors
+Mark Opondo 
