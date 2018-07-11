@@ -18,7 +18,7 @@
     font-size: 1.5rem;
 }
 
-.navbar-toggler{
+.navbar-toggler toggler-example{
     cursor: pointer;
 }
 
@@ -246,6 +246,17 @@
     padding-left: 50px;
     grid-template-rows: 1fr 1fr;
 }
+
+.customer-comment{
+    grid-row: 1 / 2; 
+    display: grid;
+    grid-auto-columns: minmax(10px auto)
+}
+
+/* .customer-image{
+    grid-row: 2 / 3;
+    display: grid;
+} */
 
 .staff-info{
     padding-left: 40px;
